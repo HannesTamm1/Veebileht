@@ -31,6 +31,7 @@ html {
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
+    gap: 1rem;
   }
   .about {
     margin: 1rem;
@@ -53,6 +54,23 @@ html {
   }
 
   .child1 {
+    margin-right: 10px;
+    width: 40%;
+    max-width: 40%;
+    min-height: 40%;
+    max-height: 40%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3rem 3rem;
+    margin-block: 2rem;
+    vertical-align: middle;
+  }
+  .child2 {
+    margin-left: 10px;
+    width: 40%;
+    max-width: 40%;
+    min-height: 40%;
+    max-height: 40%;
     display: inline-block;
     border: 1px solid black;
     padding: 3rem 3rem;
@@ -60,7 +78,8 @@ html {
     vertical-align: middle;
   }
   
-  .child2 {
+  .child3 {
+    min-width: 50%;
     display: inline-block;
     border: 1px solid black;
     padding: 3rem 3rem;
