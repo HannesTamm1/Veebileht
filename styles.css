@@ -1,7 +1,43 @@
 html {
     background-color: #ffffff;
   }
-  .parent {
+  .introduction {
+    background-image: url("dark-gradient.jpg");
+    background-size: contain;
+    background-position: center;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    text-emphasis-color: white; 
+  }
+  .introduction h1 {
+    color: white;
+  }
+  .introduction p {
+    color: white;
+  }
+  .introduction button {
+    background-color: blue;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 10%;
+  }
+  .products {
+    background-image: ("taust.jpg");
+    background-size: contain;
+    background-position: center;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .about {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+  }
+  .banner {
     border: 1px solid black;
     margin: 1rem;
     padding: 2rem 2rem;
@@ -9,8 +45,25 @@ html {
   }
   .child {
     display: inline-block;
-    border: 1px solid red;
-    padding: 1rem 1rem;
+    border: 1px solid whitesmoke;
+    padding: 3rem 3rem;
+    vertical-align: middle;
+    margin-top: 2rem;
+    border-radius: 2%;
+  }
+
+  .child1 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3rem 3rem;
+    margin-block: 2rem;
     vertical-align: middle;
   }
   
+  .child2 {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 3rem 3rem;
+    margin-block: 2rem;
+    vertical-align: middle;
+  }
