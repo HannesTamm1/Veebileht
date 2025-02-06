@@ -1,88 +1,186 @@
 html {
-    background-color: #ffffff;
+    background-color: #857171;
   }
+
+
+.container {
+  background-image: url("gradient.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
   .introduction {
-    background-image: url("dark-gradient.jpg");
-    background-size: contain;
+    background-image: url("logo.jpg");
+    background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1500px;
     border: 1px solid black;
-    margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
-    text-emphasis-color: white; 
+    text-emphasis-color: white;
+    padding-bottom: 15rem;
+    padding-top: 20rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
+
   .introduction h1 {
     color: white;
   }
+
   .introduction p {
     color: white;
   }
+
   .introduction button {
-    background-color: blue;
+    background-color: rgb(39, 39, 238);
     color: white;
     padding: 1rem 1rem;
-    border-radius: 10%;
+    border-radius: 10px;
   }
+
   .products {
-    background-image: ("taust.jpg");
-    background-size: contain;
+    background-image: url("mercedes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
+    margin: 0 auto;
+    max-width: 1500px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     text-align: center;
-    gap: 1rem;
   }
-  .about {
-    margin: 1rem;
+
+  .newsletter {
+    background-size: cover;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    max-width: 1500px;
     padding: 2rem 2rem;
+    padding-bottom: 3rem;
+    padding-top: 6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align: center;
   }
   .banner {
+    background-color: black;
     border: 1px solid black;
-    margin: 1rem;
     padding: 2rem 2rem;
+    margin: 0 auto;
+    max-width: 1500px;
     text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 10rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .banner p{
+    color: white;
   }
   .child {
     display: inline-block;
     border: 1px solid whitesmoke;
     padding: 3rem 3rem;
     vertical-align: middle;
-    margin-top: 2rem;
-    border-radius: 2%;
+    margin: 0 auto;
+    border-radius: 10px;
   }
 
   .child1 {
-    margin-right: 10px;
-    width: 40%;
-    max-width: 40%;
-    min-height: 40%;
-    max-height: 40%;
+    background-color: black;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-right: 20px;
     display: inline-block;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 3rem 3rem;
     margin-block: 2rem;
     vertical-align: middle;
+    border: white;
+    border-radius: 10px;
   }
+
+  .child1 button {
+    background-color: rgb(39, 39, 238);
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+  }
+
+  .child1 h1{
+    color: white;
+  }
+
   .child2 {
-    margin-left: 10px;
-    width: 40%;
-    max-width: 40%;
-    min-height: 40%;
-    max-height: 40%;
+    margin-left: 20px;
+    background-image: url("banner.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1200px;
+    border-radius: 10px;
     display: inline-block;
     border: 1px solid black;
     padding: 3rem 3rem;
     margin-block: 2rem;
     vertical-align: middle;
   }
+
+  #nupp1{
+    background-color: blue;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+  }
+
+  #nupp2{
+    background-color: transparent;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+  }
+
+  .child2 h1{
+    color: white;
+  }
+
   
   .child3 {
-    min-width: 50%;
+    border-radius: 10px;
+    background-color: black;
+    margin: 0 auto;
+    max-width: 1300px;
     display: inline-block;
     border: 1px solid black;
     padding: 3rem 3rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
     margin-block: 2rem;
     vertical-align: middle;
+  }
+
+  .child3 button {
+    background-color: blue;
+    color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+  }
+  .child3 h1{
+    color: white;
+  }
+
+  .child3 p{
+    color: white;
   }
