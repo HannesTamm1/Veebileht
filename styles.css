@@ -1,14 +1,6 @@
-html {
-    background-color: #857171;
+  .html, body {
+    background-color: #252424;
   }
-
-
-.container {
-  background-image: url("gradient.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
   .introduction {
     background-image: url("logo.jpg");
@@ -16,12 +8,12 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1800px;
     border: 1px solid black;
     padding: 2rem 2rem;
     text-align: center;
     text-emphasis-color: white;
-    padding-bottom: 15rem;
+    padding-bottom: 20rem;
     padding-top: 20rem;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -49,25 +41,25 @@ html {
     background-position: center;
     border: 1px solid black;
     margin: 0 auto;
-    max-width: 1500px;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    max-width: 1800px;
+    padding-top: 20rem;
+    padding-bottom: 18rem;
     padding-right: 1rem;
     padding-left: 1rem;
     text-align: center;
   }
 
   .newsletter {
+    background-image: url("community.jpg");
     background-size: cover;
-    background-color: aliceblue;
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid black;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1800px;
     padding: 2rem 2rem;
     padding-bottom: 3rem;
-    padding-top: 6rem;
+    padding-top: 34rem;
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: center;
@@ -77,7 +69,7 @@ html {
     border: 1px solid black;
     padding: 2rem 2rem;
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1800px;
     text-align: center;
     padding-bottom: 3rem;
     padding-top: 10rem;
@@ -91,6 +83,7 @@ html {
   .child {
     display: inline-block;
     border: 1px solid whitesmoke;
+    background-color: #f2f2f2 70%;
     padding: 3rem 3rem;
     vertical-align: middle;
     margin: 0 auto;
@@ -101,10 +94,10 @@ html {
     background-color: black;
     max-width: 1200px;
     margin: 0 auto;
-    margin-right: 20px;
+    margin-right: 50px;
     display: inline-block;
     border: 1px solid white;
-    padding: 3rem 3rem;
+    padding: 6rem 4rem;
     margin-block: 2rem;
     vertical-align: middle;
     border: white;
@@ -123,7 +116,6 @@ html {
   }
 
   .child2 {
-    margin-left: 20px;
     background-image: url("banner.webp");
     background-size: cover;
     background-position: center;
@@ -133,8 +125,9 @@ html {
     border-radius: 10px;
     display: inline-block;
     border: 1px solid black;
-    padding: 3rem 3rem;
+    padding: 6rem 6rem;
     margin-block: 2rem;
+    margin-left: 200px;
     vertical-align: middle;
   }
 
@@ -149,11 +142,13 @@ html {
     background-color: transparent;
     color: white;
     padding: 1rem 1rem;
+    margin-left: 25px;
     border-radius: 10px;
   }
 
   .child2 h1{
     color: white;
+    padding-bottom: 250px;
   }
 
   
@@ -183,4 +178,38 @@ html {
 
   .child3 p{
     color: white;
+  }
+
+  .topnav {
+    background-color: #333;
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
   }
